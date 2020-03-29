@@ -2,3 +2,6 @@
 .RData
 .Rproj.user
 inst/doc
+data-raw/recintos_municipales_inspire_canarias_wgs84/*
+data-raw/recintos_municipales_inspire_peninbal_etrs89/*
+data-raw/1mun00.csv
