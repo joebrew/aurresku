@@ -1,0 +1,32 @@
+Package: aurresku
+Title: Aurresku
+Version: 0.0.0.9000
+Authors@R: person('Joe', 'Brew', email = 'joe@databrew.cc', role = c('cre', 'aut'))
+Description: Tools for identifying populations at risk in the COVID-19 outbreak
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    dplyr,
+    leaflet,
+    shinyMobile,
+    RColorBrewer,
+    rgdal,
+    sp,
+    maptools
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+URL: https://github.com/databrew/covid19
+BugReports: https://github.com/databrew/covid19/issues
+Suggests: 
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
